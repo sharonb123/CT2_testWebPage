@@ -1,0 +1,113 @@
+*{
+    align-content: center;
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    background-color: darkslategray;
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    float: right;
+    padding: 10px;
+}
+li a{
+    text-decoration: none;
+    color: darkgray;
+    margin-left: 50px;
+    margin-top: 35px;
+    margin-inline: 10px;
+}
+a:hover{
+    background-color: brown;
+    color: black;
+
+}
+#singin{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+#imglogo{
+    width: 50px;
+    display: inline-block;
+    float: left;
+    margin-inline-start:5px;
+}
+header{
+    text-align: center;
+    border-bottom: 4px solid purple;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 10px;
+}
+section{
+    display: inline-block;
+    width: 300px;
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+}
+
+#blue{
+    background-color: rgb(17, 160, 216);
+    color: white;
+    height: 30px;
+    padding: 20px;   
+}
+#red{
+    background-color: red;
+    color: white;
+    height: 30px;
+    padding: 20px; 
+}
+#green{
+    background-color: greenyellow;
+    color: white;
+    height: 30px;
+    padding: 20px; 
+}
+#black{
+background-color: black;
+color: white;
+height: 30px;
+padding: 20px; 
+}
+
+#imgchart{
+    width: 300px;
+    height: 200px;
+}
+
+aside{
+    border: 2px solid black;
+    height: 200px;
+    width: 90%;
+    margin: 20px;
+
+
+}
+#banner{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+#banderp{
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    margin-left: 20px;
+    margin-right: auto;
+    color: white;
+    padding: 50px;
+    
+}
